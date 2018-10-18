@@ -1,0 +1,13 @@
+[06-Feb-2018 12:44:30 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/comments.php on line 31
+[06-Feb-2018 12:44:31 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/comments.php on line 31
+[06-Feb-2018 19:54:58 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/page.php on line 1
+[06-Feb-2018 19:55:00 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/page.php on line 1
+[16-Mar-2018 03:01:34 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/404.php on line 1
+[27-Mar-2018 21:45:17 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/header.php on line 3
+[29-Mar-2018 01:39:41 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/index.php on line 1
+[07-Apr-2018 01:30:53 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/404.php on line 1
+[08-Apr-2018 09:21:42 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/404.php on line 1
+[10-Apr-2018 14:52:08 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/archive.php on line 1
+[07-May-2018 02:02:35 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/404.php on line 1
+[07-May-2018 04:05:56 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/404.php on line 1
+[27-Jul-2018 12:00:39 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/slink409/ivfkentucky.com/wp-content/themes/reverie-master/index.php on line 1

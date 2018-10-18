@@ -1,0 +1,676 @@
+@import url("../../reverie-master/css/style.css");
+/* This is the Sass/Scss file loaded by WordPress in frontend.
+ * Tweak it and have fun.
+ */
+body {
+  background: #d1e5e4;
+}
+
+body > header.contain-to-grid {
+    margin-bottom: 0 !important;
+}
+
+a.floating-contact{
+    position: fixed;
+    right: 20px;
+    
+    padding: 0 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.floating-contact:hover{
+    background: #000000;
+}
+
+.scroll-page-nav {
+    /* text-align: center; */
+    background: #fff;
+    /*position: fixed;*/
+    left: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    /* box-shadow: 2px 2px 2px #eee; */
+}
+
+.scroll-page-nav ul {
+    list-style: none;
+    margin-top: -15px;
+}
+
+.scroll-page-nav ul li {
+    margin-left: -10px;
+    font-size: 14px;
+}
+
+.sticky a.floating-contact{
+    background: #EDD0D8;
+    opacity: 1;
+}
+
+.sticky a.floating-contact:hover{
+    opacity: .8;
+}
+.featured-content-list .featured-content-image.circle, .featured-content-slider .featured-content-image.circle{
+    border-radius: 0 !important;
+}
+#content{
+	background: transparent !important;
+	border: none !important;
+}
+
+.header-logo {
+    padding: 60px;
+}
+
+.stork{
+	text-align: right;
+}
+
+p.name {
+    text-align: center;
+    font-size: 14px;
+}
+
+.header-bottom-border {
+    height: 17px;
+    width: 100%;
+    margin-top: -9px;
+}
+
+section#main-header {
+    z-index: 30;
+    position: relative;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.bxslider .caption {
+    position: absolute;
+    top: 19%;
+    left: 65px;
+    width: 37%;
+    background: rgba(255,255,255, .8);
+    padding: 9px;
+    box-shadow: 1px 1px 1px #000;
+    /* border-radius: 3px; */
+}
+
+.bxslider .caption h3{
+	font-size: 1.5rem;
+}
+
+.bx-wrapper {
+    margin-top: -7px;
+    margin-bottom: 0px !important;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 40px !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #fff !important;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-heading h2 {
+    background-color: #efd0d8;
+}
+
+.section-heading h2:before {
+    content: "";
+    background: url(/wp-content/uploads/2017/11/left-ribbon.png);
+    width: 40px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: -25px;
+    background-repeat: no-repeat;
+}
+
+.sticky .top-bar-section .social{
+    display: none;
+} 
+
+.top-bar-section a.social-links {
+    background-color: transparent;
+    padding: 5px;
+}
+
+.section-heading h2:after {
+    content: "";
+    background: url(/wp-content/uploads/2017/11/right-ribbon.png);
+    width: 40px;
+    height: 41px;
+    display: block;
+    position: absolute;
+    right: -38px;
+    background-repeat: no-repeat;
+    top: -1px;
+}
+
+.section-heading h2 {
+    background-color: #efd0d8;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f3a5b6;
+    position: relative;
+    z-index: 10;
+}
+
+.big-content-img {
+    padding-right: 0px;
+}
+
+.big-content-img img {
+    margin-top: -22px;
+    width: 85%;
+    float: right;
+}
+
+section#learn-about-fertility {
+    background: #fff;
+    min-height: 526px;
+}
+
+.big-content-content {
+    padding-top: 45px;
+}
+
+.stats {
+    background: #F1E5D8;
+    min-height: 100px;
+    padding: 25px;
+    display: block;
+}
+
+.big-stat span {
+    font-size: 3rem;
+    float: left;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.stat p {
+    font-size: 1.7rem;
+    color: #777;
+    line-height: 25px;
+}
+
+#footer-sidebar h3.widget-title {
+    float: left;
+    margin-right: 10px;
+    width: 35%;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.footer-widget .row {
+    max-width: 90%;
+}
+
+.footer-widget .textwidget, .footer-widget #gform_wrapper_2 {
+    float: left;
+    width: 63%;
+}
+
+.footer-widget #gform_wrapper_2 {
+	margin-top: -20px;
+}
+
+#gform_wrapper_2 .gform_body {
+    width: 85%;
+    float: left;
+}
+
+a.social-links {
+    padding: 10px 15px;
+    background: #777;
+    color: #fff;
+    margin: 5px;
+    font-size: 1.3rem;
+    line-height: 45px;
+}
+
+#gform_wrapper_2 label{
+	display: none;
+}
+
+#gform_wrapper_2 .gform_footer {
+    
+    width: 15%;
+    float: left;
+    clear: none !important;
+}
+
+#gform_submit_button_2{
+	padding: .45rem 1rem !important;
+    margin-top: -7px;
+}
+
+.featured-content-list.design-2 .featured-content-image, .featured-content-slider.design-2 .featured-content-image {
+    height: 185px !important;
+    width: 185px !important;
+    top: -105px !important;
+}
+
+a.social-links:hover{
+	background: #CABFDC;
+	color: #777;
+}
+
+#sidebar {
+    margin-top: 50px !important;
+}
+
+.treatment-nav {
+    border: none;
+    background-color: #eee;
+    padding: 1.5rem 1.875rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.primary span{
+    color: #f4a6b6;
+}
+
+.success span {
+    color: #c6d7a3;
+}
+
+.danger span{
+    color: #c3b7d9;
+}
+
+.testimonial blockquote {
+    margin: 100px 0;
+    border: 2px solid #c6d7a3;
+    padding: 60px;
+    /* box-shadow: 2px 2px 2px #777777; */
+    border-radius: 2px;
+    background: rgba(255,255,255, 0.6);
+}
+
+.testimonial blockquote:before {
+    content: "\f10d";
+    font-family: fontAwesome;
+    position: absolute;
+    margin-top: -70px;
+    font-size: 3.6rem;
+    color: #c3b7d9;
+    opacity: .6;
+    margin-left: -45px;
+}
+
+.testimonial blockquote:after {
+    content: "\f10e";
+    font-family: fontAwesome;
+    font-size: 3.6rem;
+    float: right;
+    color: #c3b7d9;
+    opacity: .6;
+    margin-top: -20px;
+    margin-right: -35px;
+}
+ 
+p.tester {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-widget {
+    margin-top: 0;
+}
+
+.featured-content-list.design-2 .featured-read-more, .featured-content-slider.design-2 .featured-read-more {
+    display: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 10px;
+}
+
+footer .logo {
+    margin-top: 70px;
+}
+
+.featured-content-list.design-2 .featured-content-wrap, .featured-content-slider.design-2 .featured-content-wrap {
+    border: none;
+}
+
+.panel {
+    border: none;
+    background: transparent;
+}
+
+.panel h4, footer .widget-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #777;
+    /* text-decoration: underline; */
+}
+
+.featured-content-list .featured-content-image img, .featured-content-slider .featured-content-image img {
+    width: 100%;
+    height: auto;
+}
+
+/**** buttons ****/
+
+button.success, .button.success {
+    background-color: #c6d7a3;
+    border-color: #c6d7a3;
+}
+
+button.primary, .button.primary{
+    background-color: #f4a6b6;
+    border-color: #f4a6b6;
+}
+
+button.danger, .button.danger{
+    background-color: #c3b7d9;
+    border-color: #c3b7d9;
+}
+
+button.success:hover, .button.success:hover, button.primary:hover, .button.primary:hover, button.danger:hover, .button.danger:hover {
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.phone-number{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+article header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -30px;
+    color: #777777;
+}
+
+.team {
+    background: #fff;
+    border: 1px solid #777777;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    padding: 18px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.team h3 {
+    color: #c3b7d9;
+}
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    background: #c3b7d9;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.gform_wrapper .gform_footer input.button:hover, .gform_wrapper .gform_footer input[type=submit]:hover, .gform_wrapper .gform_page_footer input.button:hover, .gform_wrapper .gform_page_footer input[type=submit]:hover {
+    background: #777777;
+    color: #c3b7d9;
+}
+
+a {
+    color: #777;
+}
+
+.blog article header h2 {
+    text-align: left;
+}
+
+span.author {
+    display: none;
+}
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background: url(/wp-content/uploads/2017/10/clouds-bg.jpg) !important;
+    padding: 15px !important;
+}
+
+.sticky .top-bar, .sticky .top-bar-section li:not(.has-form) a:not(.button), .sticky .top-bar-section ul {
+    background: transparent !important;
+}
+
+/*.sticky .top-bar-selection ul.right{
+    float: left !important;
+}*/
+
+.sticky .top-bar-section ul li > a{
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.sticky .top-bar-section ul li > a:hover {
+    color: #777 !important;
+}
+
+.fixed-logo {
+    display: none;
+    width: 25%;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.sticky .top-bar-section .right li .dropdown {
+    background: #fff !important;
+}
+
+.sticky .fixed-logo {
+    display: block;
+}
+
+.big-stat small {
+    vertical-align: top !important;
+    text-decoration: underline !important;
+}
+
+.scrolltop {
+    display:none;
+    width:100%;
+    margin:0 auto;
+    position:fixed;
+    bottom:20px;
+    right:10px; 
+}
+.scroll {
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    background:#b2b2b2;
+    background:rgba(178,178,178,0.7);
+    padding:20px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor:pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;        
+}
+.scroll:hover {
+    background:rgba(178,178,178,1.0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;        
+}
+.scroll:hover .fa {
+    padding-top:-10px;
+}
+.scroll .fa {
+    font-size:30px;
+    margin-top:-5px;
+    margin-left:1px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;    
+}
+
+section#videos {
+    background: #fff;
+    min-height: 630px;
+}
+
+.videos {
+    width: 100%;
+    padding: 30px 0;
+    display: block;
+    position: relative;
+}
+
+.vid-yo p{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+
+
+    .section-heading h2:before, .section-heading h2:after, .bx-wrapper, .contain-to-grid, .big-content-img, section#learn-about-fertility, .stats, #sidebar{
+        display: none;
+    }
+
+    .header-logo {
+        padding: 60px 45px 30px 45px;
+    }
+
+    button#responsive-menu-button {
+        width: 45px !important;
+        height: 45px !important;
+        top: 10px !important;
+        left: 10px !important;
+    }
+
+    #footer-sidebar h3.widget-title, .footer-widget .textwidget, .footer-widget #gform_wrapper_2{
+        width: 100%;
+        clear: both;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    .socially {
+        text-align: center;
+        margin: 5px 0px 20px 0px;
+    }
+
+    #gform_wrapper_2 .gform_body{
+        width: 100%;
+        clear: both;
+    }
+
+    #gform_wrapper_2 .gform_footer {
+        width: 100%;
+        clear: both !important;
+        margin-top: 0px;
+    }
+
+    .testimonial blockquote {
+        margin: 100px 20px;
+        border: 1px solid #c6d7a3;
+        background: rgba(255,255,255, 1);
+    }
+
+    .testimonial{
+        background-size: cover !important;
+    }
+
+    .section-heading h2 {
+        z-index: 40;
+    }
+
+    .big-content-content {
+        padding-top: 10px;
+    }
+
+    .phone-number{
+        display: block;
+    }
+
+    #content {
+        background: transparent !important;
+        border: none !important;
+        margin-top: 40px;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+    button#responsive-menu-button {
+        width: 45px !important;
+        height: 45px !important;
+        top: 10px !important;
+        left: 10px !important;
+    }
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    .section-heading h2:before, .section-heading h2:after, .bx-wrapper, .contain-to-grid, .big-content-img, section#learn-about-fertility, .stats{
+        display: none;
+    }
+
+    #footer-sidebar h3.widget-title{
+        width: 100%;
+        clear: both;
+    }
+
+    .footer-widget .textwidget, .footer-widget #gform_wrapper_2{
+        width: 100%;
+        clear: both;
+    }
+
+    footer .logo {
+        margin-top: 0px;
+    }
+
+    #footer-sidebar4 img{ 
+        width: 45% !important;
+        clear:both;
+    }
+
+    footer .logo img {
+        width: 75%;
+    }
+
+    footer .logo {
+        text-align: center;
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
